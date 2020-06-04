@@ -1,0 +1,1000 @@
+ 1035  cd foxhole/
+ 1036  git status
+ 1037  meld .
+ 1038  git pull origin release/development-us 
+ 1039  git add .
+ 1040  git pull origin release/development-us 
+ 1041  cd ..
+ 1042  git status
+ 1043  cd jinjaemails/
+ 1044  git status
+ 1045  git pull origin master 
+ 1046  cd ..
+ 1047  ls
+ 1048  git status
+ 1049  git add .
+ 1050  git pull bitbucket master 
+ 1051  git status
+ 1052  git add .
+ 1053  git commit -m "left over chagnes"
+ 1054  git config --user.email "cha@fetchyfox.com"
+ 1055  git commit -m "left over chagnes"
+ 1056  git config user.email "cha@fetchyfox.com"
+ 1057  git config user.name "Cha"
+ 1058  git push bitbucket master 
+ 1059  git pull bitbucket master 
+ 1060  git status
+ 1061  git add .
+ 1062  cd jinjaemails/
+ 1063  git status
+ 1064  git add .
+ 1065  git commit -m "??"
+ 1066  ls
+ 1067  git fetch --all
+ 1068  git status
+ 1069  git stash
+ 1070  ls
+ 1071  git status
+ 1072  cd ..
+ 1073  git status
+ 1074  git commit -m "left over changes"
+ 1075  git push bitbucket master 
+ 1076  git pull bitbucket master 
+ 1077  meld .
+ 1078  git status
+ 1079  git commit -m "resolve conflicts"
+ 1080  git push bitbucket master 
+ 1081  git pull bitbucket master 
+ 1082  ls
+ 1083  vi .development.sh 
+ 1084  source .development.sh 
+ 1085  vi azureenv.py 
+ 1086  python azureenv.py -r Andoria-dev -a andoria-dev
+ 1087  mv .andoria-dev.az.sh .development.sh 
+ 1088  source .development.sh 
+ 1089  pip install -r foxhole/requirements.txt; pip install -r requirements.txt 
+ 1090  jupyter lab . &
+ 1091  vi requirements.
+ 1092  vi requirements.txt 
+ 1093  jupyter lab . &
+ 1094  pip install -r requirements.txt 
+ 1095  vi requirements.txt 
+ 1096  jupyter lab . &
+ 1097  jobs
+ 1098  pip --version
+ 1099  pip freeze
+ 1100  :q
+ 1101  jupyter lab . &
+ 1102  vi requirements.txt 
+ 1103  pip install jupyter-server
+ 1104  jupyter lab . &
+ 1105  exit
+ 1106  pyenv activate 
+ 1107  pyenv activate fetchy-notebook 
+ 1108  ls
+ 1109  cd FetchyFox/notebook/
+ 1110  jupyter lab . &
+ 1111  pyenv activate 
+ 1112  pyenv activate fetchy-notebook 
+ 1113  ls
+ 1114  cd FetchyFox/
+ 1115  ls
+ 1116  cd web-dashboards/
+ 1117  ls
+ 1118  cd..
+ 1119  ls
+ 1120  cd ..
+ 1121  ls
+ 1122  cd notebook/
+ 1123  ls
+ 1124  git status
+ 1125  jupyter lab . &
+ 1126  npm --version
+ 1127  nvm
+ 1128  nvm ls
+ 1129  node --version
+ 1130  npx
+ 1131  exit
+ 1132  cd FetchyFox/
+ 1133  ls
+ 1134  cd web-dashboards/
+ 1135  ls
+ 1136  cd flow/
+ 1137  ls
+ 1138  vi .gitignore 
+ 1139  exit
+ 1140  cd FetchyFox/
+ 1141  ls
+ 1142  cd web-dashboards/
+ 1143  ls
+ 1144  cd fly
+ 1145  ls
+ 1146  vi README.md 
+ 1147  code README.md 
+ 1148  exit
+ 1149  cd FetchyFox/web-dashboards/
+ 1150  ls
+ 1151  cd fly
+ 1152  ls
+ 1153  vi .env.development 
+ 1154  exit
+ 1155  ls
+ 1156  cd FetchyFox/
+ 1157  ls
+ 1158  cd web-dashboards/
+ 1159  ls
+ 1160  mkdir covid-merchant
+ 1161  cd covid-merchant/
+ 1162  ls
+ 1163  git init
+ 1164  git remote add github git@github.com:fetchyfox/covid-merchant-dashboard.git
+ 1165  git fetch --all
+ 1166  git init
+ 1167  ls
+ 1168  git remote add github git@github.com:fetchyfox/covid-merchant-dashboard.git
+ 1169  git pull github
+ 1170  git checkout master
+ 1171  ls
+ 1172  npx create-react-app .
+ 1173  ls
+ 1174  vi .gitignore 
+ 1175  git status
+ 1176  vi .gitignore 
+ 1177  git status
+ 1178  mv README.md react.md
+ 1179  ls
+ 1180  touch README.md
+ 1181  ls
+ 1182  vi react.md 
+ 1183  git status
+ 1184  git add .
+ 1185  git commit -m "first commit"
+ 1186  git config user.email cha@fetchyfox.com
+ 1187  git config user.name Cha
+ 1188  git add .
+ 1189  git commit -m "initial commit"
+ 1190  git push github master
+ 1191  git fetch --all
+ 1192  git checkout development 
+ 1193  ls
+ 1194  code .
+ 1195  firebase init
+ 1196  ls
+ 1197  firebase project:list
+ 1198  firebase projects:list
+ 1199  firebase target:apply hosting development fetchy-smb-covid
+ 1200  ls
+ 1201  touch .env.development
+ 1202  ls
+ 1203  vi .env.development 
+ 1204  ls
+ 1205  npm run start:development
+ 1206  npm run build:development
+ 1207  firebase deploy --only hosting:development
+ 1208  npm run build:development
+ 1209  firebase deploy --only hosting:development
+ 1210  npm run build:development
+ 1211  firebase deploy --only hosting:development
+ 1212  npm run build:development
+ 1213  npm run start:development
+ 1214  npm run build:development
+ 1215  firebase deploy --only hosting:development
+ 1216  ls
+ 1217  cd build/
+ 1218  ls
+ 1219  nautilus .
+ 1220  cd ..
+ 1221  git staus
+ 1222  git status
+ 1223  git add .
+ 1224  git commit -m "hello PWA"
+ 1225  git push github development 
+ 1226  npm run build:development
+ 1227  firebase deploy --only hosting:development
+ 1228  ls
+ 1229  cd build/
+ 1230  ls
+ 1231  vi manifest.json 
+ 1232  ls
+ 1233  cd ..
+ 1234  ls
+ 1235  firebase projects:list
+ 1236  firebase use fetchy-smb-covid
+ 1237  npm run build:development
+ 1238  firebase deploy --only hosting:development
+ 1239  firebase use fetchy-smb-covid
+ 1240  npm run build:development
+ 1241  firebase deploy --only hosting:development
+ 1242  npm i react-ios-pwa-prompt
+ 1243  npm run start:development
+ 1244  firebase use fetchy-smb-covid
+ 1245  npm run build:development
+ 1246  firebase deploy --only hosting:development
+ 1247  firebase use fetchy-smb-covid
+ 1248  npm run build:development
+ 1249  firebase deploy --only hosting:development
+ 1250  firebase use fetchy-smb-covid
+ 1251  npm run build:development
+ 1252  firebase deploy --only hosting:development
+ 1253  firebase use fetchy-smb-covid
+ 1254  npm run build:development
+ 1255  firebase deploy --only hosting:development
+ 1256  npm run start:development
+ 1257  git status
+ 1258  git add .
+ 1259  git commt -m "got the ios flow to install the app working"
+ 1260  git commit -m "got the ios flow to install the app working"
+ 1261  git add .
+ 1262  git push github development 
+ 1263  exit
+ 1264  cd FetchyFox/
+ 1265  ls
+ 1266  cd web-dashboards/
+ 1267  ls
+ 1268  cd fly
+ 1269  ls
+ 1270  code .
+ 1271  exit
+ 1272  npm run start:development
+ 1273  ls
+ 1274  cd 
+ 1275  cd FetchyFox/
+ 1276  ls
+ 1277  cd web-dashboards/
+ 1278  ls
+ 1279  cd covid-merchant/
+ 1280  ls
+ 1281  npm run start:development
+ 1282  exit
+ 1283  gsutil
+ 1284  sudo snap install google-cloud-sdk
+ 1285  echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
+ 1286  sudo apt-get install apt-transport-https ca-certificates gnupg
+ 1287  curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key --keyring /usr/share/keyrings/cloud.google.gpg add -
+ 1288  sudo apt-get update && sudo apt-get install google-cloud-sdk
+ 1289  sudo apt-get install google-cloud-sdk
+ 1290  gsutil
+ 1291  cd Downloads/
+ 1292  las
+ 1293  ls
+ 1294  gsutil cp parking.png gs://coursera-gcp-cha
+ 1295  gcloud init
+ 1296  gsutil cp parking.png gs://coursera-gcp-cha
+ 1297  exit
+ 1298  cd .ssh/
+ 1299  ls
+ 1300  cat id_rsa.pub 
+ 1301  exit
+ 1302  htop
+ 1303  exit
+ 1304  cd FetchyFox/
+ 1305  ls
+ 1306  cd web-dashboards/
+ 1307  ls
+ 1308  cd covid-merchant/
+ 1309  ls
+ 1310  code .
+ 1311  npm install react-mapbox-gl mapbox-gl --save
+ 1312  npm install --save react-mapbox-gl-geocoder
+ 1313  npm install @material-ui/core --save
+ 1314  npm install react-mui-mapbox-geocoder --save
+ 1315  firebase use fetchy-smb-covid
+ 1316  npm run build:development
+ 1317  firebase deploy --only hosting:development
+ 1318  firebase use fetchy-smb-covid
+ 1319  npm run build:development
+ 1320  firebase deploy --only hosting:development
+ 1321  firebase use fetchy-smb-covid
+ 1322  npm run build:development
+ 1323  firebase deploy --only hosting:development
+ 1324  npm uninstall react-mapbox-gl-geocoder
+ 1325  firebase use fetchy-smb-covid
+ 1326  npm run build:development
+ 1327  firebase deploy --only hosting:development
+ 1328  npm run build:development
+ 1329  firebase deploy --only hosting:development
+ 1330  ls
+ 1331  rm -rf build/
+ 1332  npm run build:development
+ 1333  ls build/
+ 1334  code build/precache-manifest.3d502b96b0753300fc8a9f6d0e2f10f9.js 
+ 1335  cd build/static/
+ 1336  ls
+ 1337  cd js/
+ 1338  ls
+ 1339  code main.9c9cc08e.chunk.js
+ 1340  code runtime-main.05f41b95.js
+ 1341  cd ../..
+ 1342  ls
+ 1343  cd ..
+ 1344  ls
+ 1345  firebase use fetchy-smb-covid
+ 1346  npm run build:development
+ 1347  firebase deploy --only hosting:development
+ 1348  firebase use fetchy-smb-covid
+ 1349  npm run build:development
+ 1350  firebase deploy --only hosting:development
+ 1351  sh -ac . .env.development
+ 1352  ls
+ 1353  cat .env.development 
+ 1354  sh -ac . .env.development
+ 1355  ls
+ 1356  npm run start:development
+ 1357  firebase use fetchy-smb-covid
+ 1358  npm run build:development
+ 1359  firebase deploy --only hosting:development
+ 1360  firebase use fetchy-smb-covid
+ 1361  npm run build:development
+ 1362  firebase deploy --only hosting:development
+ 1363  firebase use fetchy-smb-covid
+ 1364  npm run build:development
+ 1365  firebase deploy --only hosting:development
+ 1366  git status
+ 1367  meld .
+ 1368  git status
+ 1369  meld .
+ 1370  git add .
+ 1371  git commit -m "added location services feature to test app"
+ 1372  git push github development 
+ 1373  git status
+ 1374  firebase use fetchy-smb-covid
+ 1375  npm run build:development
+ 1376  firebase deploy --only hosting:development
+ 1377  npm run build:development
+ 1378  firebase deploy --only hosting:development
+ 1379  firebase use fetchy-smb-covid
+ 1380  npm run build:development
+ 1381  firebase deploy --only hosting:development
+ 1382  npm run build:development
+ 1383  firebase deploy --only hosting:development
+ 1384  npm run build:development
+ 1385  firebase deploy --only hosting:development
+ 1386  npm run build:development
+ 1387  firebase deploy --only hosting:development
+ 1388  npm run build:development
+ 1389  firebase deploy --only hosting:development
+ 1390  rm -rf build
+ 1391  npm run build:development
+ 1392  firebase deploy --only hosting:development
+ 1393  npm run build:development
+ 1394  firebase deploy --only hosting:development
+ 1395  npm run build:development
+ 1396  firebase deploy --only hosting:development
+ 1397  npm install --save redux react-readux
+ 1398  npm install --save redux react-redux
+ 1399  git status
+ 1400  npm run build:development
+ 1401  firebase deploy --only hosting:development
+ 1402  npm run build:development
+ 1403  firebase deploy --only hosting:development
+ 1404  npm run build:development
+ 1405  firebase deploy --only hosting:development
+ 1406  npm run build:development
+ 1407  firebase deploy --only hosting:development
+ 1408  npm run build:development
+ 1409  firebase deploy --only hosting:development
+ 1410  npm run build:development
+ 1411  firebase deploy --only hosting:development
+ 1412  npm run build:development
+ 1413  firebase deploy --only hosting:development
+ 1414  npm run build:development
+ 1415  firebase deploy --only hosting:development
+ 1416  npm run build:development
+ 1417  firebase deploy --only hosting:development
+ 1418  npm run build:development
+ 1419  firebase deploy --only hosting:development
+ 1420  npm run build:development
+ 1421  firebase deploy --only hosting:development
+ 1422  npm run build:development
+ 1423  firebase deploy --only hosting:development
+ 1424  npm run build:development
+ 1425  firebase deploy --only hosting:development
+ 1426  npm run build:development
+ 1427  firebase deploy --only hosting:development
+ 1428  git status
+ 1429  git add .
+ 1430  git status
+ 1431  git commit -m
+ 1432  git commit
+ 1433  git status
+ 1434  ls
+ 1435  git push github development 
+ 1436  vi .env.development 
+ 1437  git status
+ 1438  git add .
+ 1439  git commit -m "updated version number"
+ 1440  git push github development 
+ 1441  firebase use fetchy-smb-covid
+ 1442  npm run build:development
+ 1443  firebase deploy --only hosting:development
+ 1444  exit
+ 1445  man sh
+ 1446  echo 'sh -ac . .env.development'
+ 1447  sh -ac . .env.development
+ 1448  ls
+ 1449  cd FetchyFox/web-dashboards/
+ 1450  ls
+ 1451  cd covid-merchant/
+ 1452  ls
+ 1453  sh -ac . .env.${REACT_APP_ENV}
+ 1454  sh -ac . .env.development
+ 1455  sh -ac .env.development
+ 1456  sh -ac .
+ 1457  sh -ac . .env.development 
+ 1458  sh -ac . .env.development; react-scripts build
+ 1459  ls
+ 1460  REACT_APP_ENV=development npm run build
+ 1461  sh -ac . .env.${REACT_APP_ENV}; react-scripts build
+ 1462  sh -ac . .env.development; react-scripts build
+ 1463  ls
+ 1464  vi package.json 
+ 1465  npm run start:development
+ 1466  ls
+ 1467  vi READ
+ 1468  vi README.md 
+ 1469  exit
+ 1470  cd fet
+ 1471  cd FetchyFox/
+ 1472  ls
+ 1473  cd web-dashboards/
+ 1474  ls
+ 1475  cd covid-merchant/
+ 1476  ls
+ 1477  code .
+ 1478  npm run start:development
+ 1479  jupyter lab . &
+ 1480  pyenv activate fetchy-notebook 
+ 1481  cd FetchyFox/
+ 1482  ls
+ 1483  cd notebook/
+ 1484  ls
+ 1485  jupyter lab . &
+ 1486  exit
+ 1487  pyenv activate fetchy-platform 
+ 1488  cd FetchyFox/
+ 1489  ls
+ 1490  cd platform/
+ 1491  ls
+ 1492  pycharm-professional . &
+ 1493  ls
+ 1494  cd ..
+ 1495  ls
+ 1496  cd platform/
+ 1497  ls
+ 1498  rm -rf .idea/
+ 1499  ls
+ 1500  pycharm-professional . &
+ 1501  cd FetchyFox/
+ 1502  ls
+ 1503  cd web-dashboards/
+ 1504  ls
+ 1505  cd covid-merchant/
+ 1506  ls
+ 1507  cd ..
+ 1508  ls
+ 1509  cd fly/
+ 1510  ls
+ 1511  code .
+ 1512  exit
+ 1513  ls
+ 1514  cd FetchyFox/
+ 1515  ls
+ 1516  mkdir fetchy-rms
+ 1517  ls
+ 1518  cd fetchy-rms/
+ 1519  ls
+ 1520  git init
+ 1521  git remote add github https://github.com/fetchyfox/reservation-backend
+ 1522  git fetch --all
+ 1523  git remove remote github
+ 1524  git delete remote guthub
+ 1525  git --help
+ 1526  git remote --help
+ 1527  git remote remove github
+ 1528  git remote add github git@github.com:fetchyfox/reservation-backend.git
+ 1529  git status
+ 1530  git fetch --all
+ 1531  git checkout release/development 
+ 1532  git status
+ 1533  ls
+ 1534  vi README.md 
+ 1535  code .
+ 1536  node --version
+ 1537  nvm
+ 1538  ls
+ 1539  nvm ls
+ 1540  nvm ls-remote
+ 1541  nvm ls
+ 1542  nvm install v10.20.1
+ 1543  nvm alias firebase10 v10.20.1
+ 1544  nvm use firebase10
+ 1545  node --version
+ 1546  nvm ls
+ 1547  ls
+ 1548  firebase init
+ 1549  npm install -g firebase-tools
+ 1550  node --version
+ 1551  firebase init
+ 1552  git status
+ 1553  ls
+ 1554  git status
+ 1555  vi .firebaserc 
+ 1556  ls
+ 1557  vi #!/bin/sh
+ 1558  vi deploy_db.sh
+ 1559  vi deploy_functions.sh
+ 1560  ls
+ 1561  sudo apt-get install jq
+ 1562  firebase firestore
+ 1563  firebase firestore --help
+ 1564  ls
+ 1565  npm install firebase-admin --save
+ 1566  ls
+ 1567  vi package-lock.json 
+ 1568  git status
+ 1569  rm package-lock.json 
+ 1570  ls
+ 1571  cd functions/
+ 1572  npm install firebase-admin --save
+ 1573  git status
+ 1574  cd ..
+ 1575  git status
+ 1576  git add .
+ 1577  git status
+ 1578  git commit -m "initial files"
+ 1579  git config user.email cha@fetchyfox.com
+ 1580  git config user.name Cha
+ 1581  git commit -m "initial files:
+ 1582  git commit -m "initial files"
+ 1583  git push github release/development 
+ 1584  git status
+ 1585  git add firebase-design.md
+ 1586  git commit -m "added design outline"
+ 1587  git push github release/development 
+ 1588  ls
+ 1589  git status
+ 1590  git push github release/development 
+ 1591  ls
+ 1592  cd functions/
+ 1593  ls
+ 1594  npm install --save crypto-js
+ 1595  firebase projects"list
+ 1596  firebase projects:list
+ 1597  firebase functions:config:set env.aes_key=KSMkSyqqz98D9LwP4kTvDd6tAWqt49ma
+ 1598  firebase functions:config:get > .runtimeconfig.json
+ 1599  vi .runtimeconfig.json 
+ 1600  npm install --save awesome-phonenumber
+ 1601  npm install --save password-hash
+ 1602  npm install --save short-uuid
+ 1603  firebase functions:config:set env.region=us-central1
+ 1604  firebase functions:config:get > .runtimeconfig.json
+ 1605  git status
+ 1606  cd ..
+ 1607  git status
+ 1608  git add .
+ 1609  git commit -m "added http functions for testing saving and getting reservations"
+ 1610  git push github release/development 
+ 1611  firebase list
+ 1612  firebase projects:list
+ 1613  ls
+ 1614  chmod 764 deploy_db.sh
+ 1615  ls
+ 1616  chmod 764 deploy_functions.sh 
+ 1617  ls
+ 1618  ./deploy_functions.sh fetchy-smb-covid
+ 1619  ls
+ 1620  firebase emulators:start
+ 1621  ls
+ 1622  node runner.js 
+ 1623  cd functions/
+ 1624  ls
+ 1625  mv ../runner.js .
+ 1626  ls
+ 1627  node runner.js 
+ 1628  vi .runtimeconfig.json 
+ 1629  node runner.js 
+ 1630  ls
+ 1631  cd ..
+ 1632  ls
+ 1633  ./deploy_functions.sh fetchy-smb-covid
+ 1634  firebase functions:log
+ 1635  ./deploy_functions.sh fetchy-smb-covid
+ 1636  firebase functions:log
+ 1637  ./deploy_functions.sh fetchy-smb-covid
+ 1638  firebase functions:log
+ 1639  ./deploy_functions.sh fetchy-smb-covid
+ 1640  firebase functions:log
+ 1641  ./deploy_functions.sh fetchy-smb-covid
+ 1642  firebase functions:log
+ 1643  ./deploy_functions.sh fetchy-smb-covid
+ 1644  firebase functions:log
+ 1645  git status
+ 1646  git add .
+ 1647  git status
+ 1648  git commit -m "working endpoints for storign encrypted reservation data with pii and fetching the data"
+ 1649  git push github release/development 
+ 1650  ./deploy_functions.sh fetchy-smb-covid
+ 1651  exit
+ 1652  cd FetchyFox/fetchy-rms/
+ 1653  ls
+ 1654  firebase functions:log
+ 1655  ./deploy_functions.sh fetchy-smb-covid
+ 1656  clear
+ 1657  firebase functions:log
+ 1658  firebase functions:log --help
+ 1659  firebase functions:log
+ 1660  firebase functions --help
+ 1661  firebase functions:log
+ 1662  ./deploy_functions.sh fetchy-smb-covid
+ 1663  firebase functions:log
+ 1664  ./deploy_functions.sh fetchy-smb-covid
+ 1665  firebase functions:log
+ 1666  ls
+ 1667  ./deploy_functions.sh fetchy-smb-covid
+ 1668  firebase functions:log
+ 1669  ./deploy_functions.sh fetchy-smb-covid
+ 1670  firebase functions:log
+ 1671  clear
+ 1672  firebase functions:log
+ 1673  clear
+ 1674  firebase functions:log
+ 1675  ./deploy_functions.sh fetchy-smb-cvid
+ 1676  ./deploy_functions.sh fetchy-smb-covid
+ 1677  firebase functions:log
+ 1678  ./deploy_functions.sh fetchy-smb-covid
+ 1679  firebase functions:log
+ 1680  ls
+ 1681  git status
+ 1682  vi .gitignore 
+ 1683  git status
+ 1684  vi .gitignore 
+ 1685  git status
+ 1686  vi .gitignore 
+ 1687  gut statys
+ 1688  git status
+ 1689  meld .
+ 1690  firebase functions:log
+ 1691  ls
+ 1692  git status
+ 1693  git add .
+ 1694  git commit 
+ 1695  git status
+ 1696  git push github release/development 
+ 1697  git status
+ 1698  ls
+ 1699  git status
+ 1700  exit
+ 1701  cd FetchyFox/
+ 1702  ls
+ 1703  cd gcp/
+ 1704  ls
+ 1705  cd ..
+ 1706  ls
+ 1707  c dfeet
+ 1708  cd fetchy-rms/
+ 1709  ls
+ 1710  code .
+ 1711  cd functions/
+ 1712  ls
+ 1713  vi .runtimeconfig.json 
+ 1714  cd //
+ 1715  cd -
+ 1716  cd ..
+ 1717  firebase functions:config:set env.aes_key=yC9nhfKLxvhfTFGHyLSulR6O6Pu8y1Ap
+ 1718  ls
+ 1719  cd functions/
+ 1720  node runner.js 
+ 1721  npm uninstall password-hash
+ 1722  vi package.json 
+ 1723  npm install --save bcrypt
+ 1724  cd ..
+ 1725  firebase projects:list
+ 1726  ./deploy_functions.sh fetchy-smb-covid
+ 1727  npm install axios
+ 1728  ls
+ 1729  vi package-lock.json 
+ 1730  git status
+ 1731  rm package-lock.json 
+ 1732  cd functions/
+ 1733  npm install axios
+ 1734  node runner.js 
+ 1735  clear
+ 1736  node runner.js 
+ 1737  clear
+ 1738  node runner.js 
+ 1739  clear
+ 1740  node runner.js 
+ 1741  cd ..
+ 1742  ls
+ 1743  firebase projects:list
+ 1744  ./deploy_functions.sh fetchy-smb-covid
+ 1745  cd functions/
+ 1746  node runner.js 
+ 1747  ls
+ 1748  node runner.js 
+ 1749  clear
+ 1750  node runner.js 
+ 1751  meld .
+ 1752  vi package.json 
+ 1753  meld .
+ 1754  node runner.js 
+ 1755  ls
+ 1756  node runner.js 
+ 1757  git status
+ 1758  exit
+ 1759  cd FEt
+ 1760  ls
+ 1761  cd FetchyFox/
+ 1762  ls
+ 1763  mkdir react-shared
+ 1764  cd react-shared/
+ 1765  ls
+ 1766  git init 
+ 1767  git remote add bitbucket git clone git@bitbucket.org:fetchyfox/react-common.git
+ 1768  git remote add bitbucket git@bitbucket.org:fetchyfox/react-common.git
+ 1769  git status
+ 1770  git fetch --all
+ 1771  git checkout release/development-us 
+ 1772  git status
+ 1773  ls -al
+ 1774  code .
+ 1775  cp -r components/ ../react-components/
+ 1776  cp -r assets/ ../react-components/
+ 1777  cp utils.js fetchyfoxtheme.js canvasjs.* react-calendar-heatmap.css ../react-components/
+ 1778  ls
+ 1779  rm -rf canvasjs.* components/ fetchyfoxtheme.js react-calendar-heatmap.css utils.js 
+ 1780  git status
+ 1781  git add .
+ 1782  git commit -m "shared UI components and files moved into separate repo. components are re-usable, network code is more use-case based"
+ 1783  git config user.email cha@fetchyfox.com
+ 1784  git config user.name Cha
+ 1785  git commit -m "shared UI components and files moved into separate repo. components are re-usable, network code is more use-case based"
+ 1786  git push bitbucket release/development-us 
+ 1787  git status
+ 1788  exit
+ 1789  cd FetchyFox/
+ 1790  ls
+ 1791  mkdir react-components
+ 1792  ls
+ 1793  cd react-components/
+ 1794  ls
+ 1795  git init
+ 1796  git remote add bitbucket git@bitbucket.org:fetchyfox/react-components.git
+ 1797  git fetch --all
+ 1798  git checkout release/development-us 
+ 1799  ls
+ 1800  code .
+ 1801  git status
+ 1802  git add .
+ 1803  git status
+ 1804  git commit -m "separated out ui components and stylesheets from repo of shared code. this one is just UI"
+ 1805  git config user.email cha@fetchyfox.com
+ 1806  git config user.name Cha
+ 1807  git commit -m "separated out ui components and stylesheets from repo of shared code. this one is just UI"
+ 1808  git push bitbucket release/development-us 
+ 1809  ls
+ 1810  git status
+ 1811  exit
+ 1812  cd FetchyFox/
+ 1813  ls
+ 1814  cd web-dashboards/
+ 1815  ls
+ 1816  cd flow/
+ 1817  ls
+ 1818  code .
+ 1819  ls
+ 1820  cd src/
+ 1821  ls
+ 1822  cd components/
+ 1823  ls
+ 1824  cd common/
+ 1825  ls
+ 1826  pwd
+ 1827  exit
+ 1828  cd FetchyFox/
+ 1829  ls
+ 1830  cd fetchy-rms
+ 1831  ls
+ 1832  cd ..
+ 1833  ls
+ 1834  mv fetchy-rms/ rms-backend
+ 1835  ls
+ 1836  cd web-dashboards/
+ 1837  ls
+ 1838  mv covid-merchant/ rms-merchant
+ 1839  ls
+ 1840  cd rms-merchant/
+ 1841  lks
+ 1842  ls
+ 1843  git status
+ 1844  ls
+ 1845  cd src/
+ 1846  ls
+ 1847  rm '[ ] reservation JSON' 
+ 1848  ls
+ 1849  cd ..
+ 1850  ls
+ 1851  git status
+ 1852  rm -rf rms-merchant/
+ 1853  ls
+ 1854  mkdir rms-merchant
+ 1855  ls
+ 1856  cd rms-merchant/
+ 1857  ls
+ 1858  git init
+ 1859  git status
+ 1860  ls
+ 1861  git remote add github git@github.com:fetchyfox/merchant-rms.git
+ 1862  git status
+ 1863  ls
+ 1864  git fetch --all
+ 1865  git checkout release/development 
+ 1866  ls
+ 1867  code .
+ 1868  ls
+ 1869  npm install --save firebase
+ 1870  ls
+ 1871  cd src/
+ 1872  ls
+ 1873  cd components/
+ 1874  ls
+ 1875  mkdir shared
+ 1876  cd shared/
+ 1877  git submodule add git@bitbucket.org:fetchyfox/react-components.git
+ 1878  ls
+ 1879  rm -rf react-components/
+ 1880  ls
+ 1881  cd ..
+ 1882  ls
+ 1883  cd ..
+ 1884  ls
+ 1885  cd ..
+ 1886  ls
+ 1887  vi .gitmodules 
+ 1888  vi .git/config 
+ 1889  git rm --cached src/components/shared/
+ 1890  git status
+ 1891  git rm --cached src/components/shared/
+ 1892  git add .gitmodules 
+ 1893  git rm --cached src/components/shared/
+ 1894  git rm -rf --cached src/components/shared/
+ 1895  git status
+ 1896  ls
+ 1897  git status
+ 1898  git add .
+ 1899  git status
+ 1900  git commit 
+ 1901  git config user.email cha@fetchyfox.com
+ 1902  git config user.name Cha
+ 1903  git commit 
+ 1904  git push github release/development 
+ 1905  ls
+ 1906  cd src/components/
+ 1907  ls
+ 1908  cd shared/
+ 1909  ls
+ 1910  git submodule add git@bitbucket.org:fetchyfox/react-components.git .
+ 1911  cd ..
+ 1912  ls
+ 1913  rm -rf shared/
+ 1914  ls
+ 1915  cd ..
+ 1916  ls
+ 1917  vi .gitmodules 
+ 1918  cd .git/
+ 1919  ls
+ 1920  vi config 
+ 1921  cd ..
+ 1922  git rm --cached src/components/shared
+ 1923  ls
+ 1924  vi .gitmodules d
+ 1925  ls
+ 1926  vi .gitmodules 
+ 1927  git status
+ 1928  vi .git/config 
+ 1929  rm -rf .git/modules/src/components/shared/react-components
+ 1930  git status
+ 1931  ls
+ 1932  cd src/components/
+ 1933  ls
+ 1934  mkdir shared
+ 1935  ls
+ 1936  git submodule add git@bitbucket.org:fetchyfox/react-components.git .
+ 1937  ls
+ 1938  cd shared/
+ 1939  ls
+ 1940  cd ..
+ 1941  rm -rf .git/modules/src/components/shared/
+ 1942  cd .git/modules/
+ 1943  ls
+ 1944  cd src/
+ 1945  ls
+ 1946  cd ..
+ 1947  ls
+ 1948  rm -rf src/
+ 1949  ls
+ 1950  cd ..
+ 1951  cd src/components/
+ 1952  ls
+ 1953  cd shared/
+ 1954  ls
+ 1955  git submodule add git@bitbucket.org:fetchyfox/react-components.git .
+ 1956  ls
+ 1957  cd ..
+ 1958  ls
+ 1959  rm -rf shared/
+ 1960  ls
+ 1961  cd ..
+ 1962  ls
+ 1963  cd ..
+ 1964  ls
+ 1965  git status
+ 1966  ls .git/modules/
+ 1967  cd ..
+ 1968  ls
+ 1969  cd rms-merchant/
+ 1970  ls
+ 1971  cd src/
+ 1972  ls
+ 1973  cd components/
+ 1974  ls
+ 1975  git submodule add git@bitbucket.org:fetchyfox/react-components.git shared
+ 1976  ls
+ 1977  cd shared/
+ 1978  ls
+ 1979  git submodule init
+ 1980  ls
+ 1981  git checkout release/development-us 
+ 1982  ls
+ 1983  cd ..
+ 1984  ls
+ 1985  cd ..
+ 1986  ls
+ 1987  cd ..
+ 1988  ls -al
+ 1989  npm install --save @material-ui/core 
+ 1990  npm install --save react-router-dom
+ 1991  npm install -save react-router
+ 1992  npm run start:
+ 1993  npm run start
+ 1994  npm run start:development
+ 1995  git status
+ 1996  git add .
+ 1997  git status
+ 1998  git commit -m "first few login screens"
+ 1999  git push github release/development 
+ 2000  exit
+ 2001  mkdir foo
+ 2002  cd foo/
+ 2003  ls
+ 2004  git clone https://github.com/chavli/hello-git.git li-test
+ 2005  ls -al
+ 2006  cd li-test
+ 2007  ls -al
+ 2008  vi hello.txt
+ 2009  mkdir a
+ 2010  cd a
+ 2011  mkdir b
+ 2012  cd b 
+ 2013  vi
+ 2014  vi goodbye.txt
+ 2015  pwd
+ 2016  cd ../..
+ 2017  ls -al
+ 2018  git status
+ 2019  git add hello.txt
+ 2020  git status
+ 2021  git add a
+ 2022  git status
+ 2023  git commit
+ 2024  git config user.email "chavli@gmail.com"
+ 2025  git config user.name Cha
+ 2026  git commit
+ 2027  git status
+ 2028  git push origin master
+ 2029  clear
+ 2030  git pull origin master 
+ 2031  ls -al
+ 2032  vi hello.txt 
+ 2033  vi food.txt 
+ 2034  history > commands.txt
